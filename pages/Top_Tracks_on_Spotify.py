@@ -1,5 +1,3 @@
-
-
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import streamlit as st
@@ -77,4 +75,3 @@ if genre:
 
     else:
         st.write(f"Sorry, no results found for the genre: {genre}")
-
